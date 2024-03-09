@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 350px;
+    background-image: url(images/cover.jpeg);
+    color: #a3c6c6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.project{
+    background-color: aquamarine;
+    margin-top: 7px;
+    margin-left: 3px;
+   
+}
+
+.item1{
+    float: left;
+    background-image: url(images/image-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    height: 270px;
+    width: 32.6%;
+    color: rgb(241, 202, 225);
+    margin: 4px;
+}
+
+.item2{
+    float: left;
+    background-image: url(images/image-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    height: 270px;
+    width: 32.6%;
+    color: rgb(241, 202, 225);
+    margin: 4px;
+}
+
+.item3{
+    float: left;
+    background-image: url(images/image-3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    height: 270px;
+    width: 32.6%;
+    color: rgb(241, 202, 225);
+    margin: 4px;
+}
+ .intro1{
+    font-size: 60px;
+    padding-left: 50px;
+ }
+ .intro2{
+    font-size: 30px;
+    padding-left: 50px;
+ }
+
+
+ @media screen and (max-width:1093px) {
+    .hero{
+        color: brown;
+    }
+    
+ }
+
+ @media screen and (max-width:1093px) {
+    .item1{
+    height: 270px;
+    width: 32%;
+    }  
+ }
+ @media screen and (max-width:1093px) {
+    .item2{
+    height: 270px;
+    width: 32%;
+    }  
+ }
+ @media screen and (max-width:1093px) {
+    .item3{
+    height: 270px;
+    width: 32%;
+    }  
+ }
+
+
+  
